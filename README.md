@@ -1,73 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mary Olawoyin | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Header -->
-  <header>
-    <nav>
-      <h1>Mary Olawoyin</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<!-- Header Section -->
+<div align="center">
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <h2>Hi, I'm Mary</h2>
-    <p>Frontend Developer | HTML & CSS Enthusiast | Building Clean and Modern Web Experiences</p>
-  </section>
+<h1>Hi, I'm Mary Olawoyin 👋</h1>
+<p><em>Data Scientist | Machine Learning Enthusiast | Always Learning and Exploring New Technologies</em></p>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Professional web developer with a passion for clean code and modern design.</p>
-  </section>
+<img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="120" alt="coding gif" style="border-radius:50%;"/>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>Project One</h3>
-      <p>Short description of the project.</p>
-      <a href="https://github.com/yourusername/project1" target="_blank">View Code</a>
-    </div>
-    <div class="project-card">
-      <h3>Project Two</h3>
-      <p>Short description of the project.</p>
-      <a href="https://github.com/yourusername/project2" target="_blank">View Code</a>
-    </div>
-  </section>
+</div>
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Responsive Design</li>
-    </ul>
-  </section>
+---
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
-  </section>
+<!-- Skills Section -->
+## 🛠 Skills
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 Mary Olawoyin. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+<div style="display:flex; flex-wrap:wrap; gap:10px;">
+  <span style="background:#f0f0f0; padding:5px 10px; border-radius:8px; transition:0.3s;">Python 🐍</span>
+  <span style="background:#f0f0f0; padding:5px 10px; border-radius:8px; transition:0.3s;">R 📊</span>
+  <span style="background:#f0f0f0; padding:5px 10px; border-radius:8px; transition:0.3s;">SQL 🗄️</span>
+  <span style="background:#f0f0f0; padding:5px 10px; border-radius:8px; transition:0.3s;">Pandas & NumPy</span>
+  <span style="background:#f0f0f0; padding:5px 10px; border-radius:8px; transition:0.3s;">Machine Learning 🤖</span>
+  <span style="background:#f0f0f0; padding:5px 10px; border-radius:8px; transition:0.3s;">Data Visualization 📈</span>
+  <span style="background:#f0f0f0; padding:5px 10px; border-radius:8px; transition:0.3s;">Git & GitHub</span>
+  <span style="background:#f0f0f0; padding:5px 10px; border-radius:8px; transition:0.3s;">Docker 🐳</span>
+</div>
+
+<style>
+span:hover {
+  background-color: #d1e7ff;
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+</style>
+
+---
+
+<!-- Projects Section -->
+## 💻 Projects
+
+<div style="display:flex; flex-direction:column; gap:15px;">
+
+### <a href="https://github.com/maryolawoyin/data-analysis-project" target="_blank">Customer Churn Analysis</a>
+- Built predictive models using Python & ML to predict customer churn.
+- Visualized insights with matplotlib & seaborn.
+- Emphasis on feature engineering and data cleaning.
+
+### <a href="https://github.com/maryolawoyin/ml-recommendation-system" target="_blank">Movie Recommendation System</a>
+- Collaborative filtering & content-based recommendation using Python.
+- Integrated with a simple Flask app for demo.
+
+### <a href="https://github.com/maryolawoyin/data-visualization-dashboard" target="_blank">Interactive Dashboards</a>
+- Created interactive dashboards in Plotly & Dash.
+- Focused on KPIs and actionable insights.
+
+</div>
+
+---
+
+<!-- Experience & About -->
+## 📖 About Me
+I'm an **experienced Data Scientist** with a strong foundation in **statistics, machine learning, and data visualization**.  
+I enjoy exploring **new technologies**, improving my skills, and solving real-world problems using data.  
+
+- 🎓 Bachelor's in Mathematics  
+- 💼 Professional experience with data-driven projects  
+- 🌱 Currently learning **Deep Learning and Cloud Data Platforms**  
+
+---
+
+<!-- Contact Section -->
+## 📫 Connect with Me
+
+<div style="display:flex; gap:20px;">
+<a href="mailto:youremail@example.com">✉️ Email</a>
+<a href="https://linkedin.com/in/maryolawoyin" target="_blank">💼 LinkedIn</a>
+<a href="https://github.com/maryolawoyin" target="_blank">🐙 GitHub</a>
+</div>
+
+---
+
+<!-- GitHub Stats -->
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=maryolawoyin&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-
